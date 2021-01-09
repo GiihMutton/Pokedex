@@ -47,23 +47,36 @@ table {
 /* Geral */
 
 body {
-
+	align-items: center;
 }
 
 nav {
-
+	height: 96px;
+	width: auto;
+	background-color: #D71318;
 }
 
-#header-logo {
-	background-color: brown;
+#logo-pokedex {
+	align-content: flex-end;
 }
+
 
 .main-title {
+	margin-top: 64px;
+	text-align: center;
+}
 
+.title-ask {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
 }
 
 .search {
-
+	margin-top: 64px;
+	height: 48px;
+	width: 332px;
+	align-items: center;
 }
 
 #type {
