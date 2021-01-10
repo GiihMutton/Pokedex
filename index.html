@@ -6,7 +6,7 @@
     <title>Pokédex</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../Pokedex/assets/css/styles.css">
 
@@ -27,10 +27,8 @@
             <h1 class="title-ask">Que tipo de Pokémon você está procurando?</h1>
         </div>
         <!--Buscar-->
-        <div class="search">
-            <form action="">
-                <input type="text" placeholder="Buscar">
-            </form>
+        <div id="search">
+            <input type="text" id="txtSearch" placeholder="Buscar"/>
         </div>
     </header>
 
@@ -39,221 +37,220 @@
         <!--Linha 1-->
         <div class="row">
             <!--Tipo 1-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Steel.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon steel">
+                        <img src="../Pokedex/assets/img/pokedex-icons/steel.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name steel">
+                        <span>Aço</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 2-->
-            <div class="col s4 m3 l2">
-                <div class="type-pokemon">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Water.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon water">
+                        <img src="../Pokedex/assets/img/pokedex-icons/water.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name water">
+                        <span>Água</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 3-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Dragon.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon dragon">
+                        <img src="../Pokedex/assets/img/pokedex-icons/dragon.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name dragon">
+                        <span>Dragão</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 4-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Electric.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon electric">
+                        <img src="../Pokedex/assets/img/pokedex-icons/electric.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name electric">
+                        <span>Elétrico</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 5-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Fairy.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon fairy">
+                        <img src="../Pokedex/assets/img/pokedex-icons/fairy.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name fairy">
+                        <span>Fada</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 6-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Ghost.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon ghost">
+                        <img src="../Pokedex/assets/img/pokedex-icons/ghost.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name ghost">
+                        <span>Fantasma</span>
                     </div>
-                </div>
+                
             </div>
 
         </div>
         <!--Linha 2-->
         <div class="row">
             <!--Tipo 7-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Fire.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon fire">
+                        <img src="../Pokedex/assets/img/pokedex-icons/fire.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name fire">
+                        <span>Fogo</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 8-->
-            <div class="col s4 m3 l2">
-                <div class="type-pokemon">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Ice.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon ice">
+                        <img src="../Pokedex/assets/img/pokedex-icons/ice.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name ice">
+                        <span>Gelo</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 9-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Bug.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon bug">
+                        <img src="../Pokedex/assets/img/pokedex-icons/bug.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name bug">
+                        <span>Inseto</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 10-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Fighting.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon fighting">
+                        <img src="../Pokedex/assets/img/pokedex-icons/fighting.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name fighting">
+                        <span>Lutador</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 11-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Normal.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon normal">
+                        <img src="../Pokedex/assets/img/pokedex-icons/normal.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name normal">
+                        <span>Normal</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 12-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Rock.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon rock">
+                        <img src="../Pokedex/assets/img/pokedex-icons/rock.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name rock">
+                        <span>Pedra</span>
                     </div>
-                </div>
+                
             </div>
 
         </div>
         <!--Linha 3-->
         <div class="row">
             <!--Tipo 13-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Grass.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon grass">
+                        <img src="../Pokedex/assets/img/pokedex-icons/grass.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name grass">
+                        <span>Planta</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 14-->
-            <div class="col s4 m3 l2">
-                <div class="type-pokemon">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Psychic.png" alt="">
+            <div class="pokemon-type">
+               
+                    <div class="icon psychic">
+                        <img src="../Pokedex/assets/img/pokedex-icons/psychic.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name psychic">
+                        <span>Psíquico</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 15-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Dark.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon dark">
+                        <img src="../Pokedex/assets/img/pokedex-icons/dark.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name dark">
+                        <span>Sombrio</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 16-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Ground.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon ground">
+                        <img src="../Pokedex/assets/img/pokedex-icons/ground.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name ground">
+                        <span>Terra</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 17-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Poison.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon poison">
+                        <img src="../Pokedex/assets/img/pokedex-icons/poison.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name poison">
+                        <span class="teste">Venenoso</span>
                     </div>
-                </div>
+                
             </div>
             <!--Tipo 18-->
-            <div class="col s4 m3 l2">
-                <div class="pokemon-type">
-                    <div class="type-image">
-                        <img src="../Pokedex/assets/img/Icon_Flying.png" alt="">
+            <div class="pokemon-type">
+                
+                    <div class="icon flying">
+                        <img src="../Pokedex/assets/img/pokedex-icons/flying.svg" class="" alt="">
                     </div>
-                    <div class="type-name">
-                        <span>Tipo</span>
+                    <div class="type-name flying">
+                        <span>Voador</span>
                     </div>
-                </div>
+                
             </div>
 
         </div>
     </section>
-
-    <footer>
+    <div id="swapup">
+        <img src="../Pokedex/assets/img/Icon_Back.png" alt="">
+    </div>
+    <footer id="rodape">
         <div>
-            <img src="../Pokedex/assets/img/Icon_Back.png" alt="">
-        </div>
-        <div>
-            Teste
+            isso é um teste
         </div>
     </footer>
 </body>
