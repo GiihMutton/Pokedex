@@ -1,0 +1,204 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Geral */
+
+body {
+	align-items: center;
+}
+
+/**********************************/
+
+/* Header */
+
+.bg{
+	background-color: #D71318;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	max-height: 132px;
+	min-height: 96px;
+}
+
+.bg-logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	/* width: 100%; */
+	width: 50%;
+	z-index: -1;
+	max-height: 132px;
+	min-height: 96px;
+}
+
+@font-face {
+	font-family: Pocket Monk;
+	src: url(PocketMonk-15ze.ttf);
+}
+
+.txt-link {
+	text-decoration: none;
+}
+
+.txt-logo {
+	font-family: Pocket Monk;
+	font-size: 72px;
+	color: #F2C91F;
+	/* -webkit-text-stroke-width: 3px; */
+	text-shadow:#214F91 -3px -3px;
+	/* -webkit-text-stroke-color: #214F91; */
+	text-decoration: none;
+}
+
+/**********************************/
+
+/* Voltar Página */
+
+.BackPage {
+	width: 100px;
+}
+
+.BackPage img {
+	width: 100px;
+}
+
+/**********************************/
+
+/* Display */
+
+
+.display-border {
+	width: 332px;
+	height: 208px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 64px;
+	background-color: #BDB3B3;
+
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px darkgray;
+
+}
+
+.display-screen {
+	position: relative;
+	width: 276px;
+	height: 156px;
+	top: 26px;
+	left: 28px;
+	background-color:#91C22E;
+
+	border-radius: 8px;
+
+}
+
+/**********************************/
+
+/* Etiquetas */
+
+.label {
+	align-items: center;
+	margin-left: 20%; 
+	margin-top: 32px;
+	
+}
+
+.txt-label {
+	margin-left: 32px;
+	padding: 5px;
+	background-color: #91C22E;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.label-icon {
+	vertical-align: middle;
+	background-color: #91C22E;
+	width: 24px;
+	height: 24px;
+
+}
+
+
+
+
+
+
+/*Rodapé*/
+
+#rodape {
+	background-color: #D71318;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 32px;
+	max-height: 80px;
+
+}
+
+@media (min-width: 900px) {
+	.display-border {
+		width: 712px;
+		height: 464px;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 64px;
+	
+	}
+
+	.display-screen {
+		width: 604px;
+		height: 376px;
+		/* margin: auto; */
+		top: 44px;
+		left: 54px;
+	
+	}
+}

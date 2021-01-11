@@ -1,0 +1,274 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Geral */
+
+body {
+	align-items: center;
+}
+
+/* Header */
+
+.bg{
+	background-color: #D71318;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	max-height: 132px;
+	min-height: 96px;
+}
+
+.bg-logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	/* width: 100%; */
+	width: 50%;
+	z-index: -1;
+	/* max-height: 132px;
+	min-height: 96px; */
+}
+
+@font-face {
+	font-family: Pocket Monk;
+	src: url(PocketMonk-15ze.ttf);
+}
+
+.txt-logo {
+	font-family: Pocket Monk;
+
+}
+
+
+/* Título */
+
+.main-title {
+	margin-top: 64px;
+	text-align: center;
+}
+
+.title-ask {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+ /* Busca */
+
+#search {
+	/* border-radius:8px; 
+	background-color:transparent;
+  	padding-left:5px;
+  	font-size: 16px;
+  	border:1px;
+	height:32px;
+	width:260px;
+	margin-top: 64px;
+	margin-left: 10%;
+	margin-right: 10%; */
+	
+}
+
+#txtSearch {
+	border-radius:8px; 
+	background-color:transparent;
+  	padding-left:5px;
+  	font-size: 16px;
+  	border:1px;
+	height:32px;
+	width:260px;
+	margin-top: 64px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* Tipos */
+
+#pokemon-grid {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.row {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 200;
+	
+}
+
+.pokemon {
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+	margin: 20%;
+}
+
+.pokemon img {
+	width: 60%;
+	height: 60%;
+	margin: 20%;
+}
+
+
+.pokemon-name {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 4px;
+	text-align: center;
+	padding: 2px;
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+.steel {
+	background-color: #598FA2;
+	
+}
+
+.water {
+	background-color: #4D91D7;
+}
+
+.dragon {
+	background-color: #0A6DC8;
+}
+
+.electric {
+	background-color: #F3D33C;
+}
+
+.fairy {
+	background-color: #EB91E7;
+}
+
+.ghost {
+	background-color: #5568AA;
+}
+
+.fire {
+	background-color: #FF9D55;
+}
+
+.ice {
+	background-color: #71CFBE;
+}
+
+.bug {
+	background-color: #91C22E;
+}
+
+.fighting {
+	background-color: #CF4069;
+}
+
+.normal {
+	background-color: #9199A1;
+}
+
+.rock {
+	background-color: #C7B78A;
+}
+
+.grass {
+	background-color: #61BB59;
+}
+
+.psychic {
+	background-color: #FB7075;
+}
+
+.dark {
+	background-color: #5C5265;
+}
+
+.ground {
+	background-color: #DB7645;
+}
+
+.poison {
+	background-color: #AA6AC7;
+}
+
+.flying {
+	background-color: #8EA9DF;
+}
+
+#rodape {
+	background-color: #D71318;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 32px;
+	max-height: 80px;
+
+}
+
+@media (min-width: 900px) {
+	.row { 
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		
+	}
+
+	.icon {
+		height: 100px;
+		width: 100px;
+		
+	}
+
+	.type-name {
+		width: 110px;
+		height: 20px;
+	
+		font-size: 20px;
+	}
+
+ }

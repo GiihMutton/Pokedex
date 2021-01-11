@@ -50,14 +50,53 @@ body {
 	align-items: center;
 }
 
-nav {
+/* Header */
+
+/* .bg{
 	background-color: #D71318;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	max-height: 132px;
+	min-height: 96px;
+} */
+
+.bg-logo {
+	object-fit: cover;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	/* width: 50%; */
+	z-index: -1;
+	/* max-height: 132px;
+	min-height: 96px; */
 }
 
-#logo-pokedex {
-	align-content: flex-end;
+
+
+@font-face {
+	font-family: Pocket Monk;
+	src: url(PocketMonk-15ze.ttf);
 }
 
+.txt-link {
+	text-decoration: none;
+}
+
+.txt-logo {
+	font-family: Pocket Monk;
+	font-size: 72px;
+	color: #F2C91F;
+	/* -webkit-text-stroke-width: 3px; */
+	text-shadow:#214F91 -3px -3px;
+	/* -webkit-text-stroke-color: #214F91; */
+	text-decoration: none;
+}
+
+
+/* Título */
 
 .main-title {
 	margin-top: 64px;
@@ -69,6 +108,8 @@ nav {
 	font-weight: 700;
 	font-size: 22px;
 }
+
+ /* Busca */
 
 #search {
 	/* border-radius:8px; 
@@ -96,6 +137,8 @@ nav {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+/* Tipos */
 
 #type {
 	margin-left: 10%;
@@ -137,9 +180,6 @@ nav {
 	font-size: 16px;
 }
 
-.teste {
-	align-items: center;
-}
 
 .steel {
 	background-color: #598FA2;
@@ -212,6 +252,16 @@ nav {
 
 .flying {
 	background-color: #8EA9DF;
+}
+
+#rodape {
+	background-color: #D71318;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 32px;
+	max-height: 80px;
+
 }
 
 
