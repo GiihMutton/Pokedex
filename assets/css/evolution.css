@@ -44,8 +44,6 @@ table {
 	border-spacing: 0;
 }
 
-/**********************************/
-
 /* Geral */
 
 body {
@@ -96,59 +94,139 @@ body {
 
 /**********************************/
 
-/* Título */
+/* Voltar Página */
 
-.main-title {
-	margin-top: 64px;
-	text-align: center;
+.BackPage img {
+	width: 40px;
+	margin-left: 10%;
+	margin-top: 32px;
 }
 
-.title-ask {
+/**********************************/
+
+/* Display */
+
+.display-border {
+	width: 332px;
+	height: 208px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background-color: #BDB3B3;
+
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px black;
+}
+
+.display-screen {
+	position: relative;
+	width: 276px;
+	height: 156px;
+	top: 26px;
+	left: 28px;
+	background-color:#91C22E;
+
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 10px rgb(48, 48, 48) inset;
+	-moz-box-shadow: 0px 0px 10px rgb(75, 75, 75) inset; 
+	box-shadow: 0px 0px 10px rgb(68, 68, 68) inset;
+
+}
+
+.display-screen img {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+
+}
+
+/**********************************/
+
+/* Etiquetas */
+
+.label {
+	margin-left: 20%; 
+	margin-top: 32px;
+}
+
+.txt-label {
+	margin-left: 32px;
+	padding: 5px;
+	background-color: #91C22E;
+	border-radius: 4px;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	font-size: 22px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+
+.label-icon {
+	vertical-align: middle;
+	background-color: #91C22E;
+	width: 24px;
+	height: 24px;
 }
 
 /**********************************/
 
- /* Busca */
+/* Descrição */
 
-#search {
-	/* border-radius:8px; 
-	background-color:transparent;
-  	padding-left:5px;
-  	font-size: 16px;
-  	border:1px;
-	height:32px;
-	width:260px;
-	margin-top: 64px;
-	margin-left: 10%;
-	margin-right: 10%; */
-	
+.txt-box {
+	width: 332px;
+	height: 112px;
+	margin-top: 56px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#txtSearch {
-	border-radius:8px; 
-	background-color:transparent;
-  	padding-left:5px;
-  	font-size: 16px;
-  	border:1px;
-	height:32px;
-	width:260px;
-	margin-top: 64px;
-	margin-left: 10%;
-	margin-right: 10%;
+.txt-box p {
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
 }
+
 
 /**********************************/
 
-/* Tipos */
+/*Status e Evolução*/
 
-#pokemon-grid {
+.label-block {
+	margin-bottom: 64px;
+}
+
+.stats-btn {
+	background-color: #78A026;
+	padding: 5px 10px;
+	margin-left: 32px;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+a { 
+	color: inherit; 
+}
+
+.evolution-btn {
+	background-color: #B9F441;
+	padding: 5px 10px;
+	margin-left: 32px;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+.evolution {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
 }
+
 
 .row {
 	display: grid; 
@@ -156,116 +234,14 @@ body {
 	gap: 200;
 	
 }
-
-/* .pokemon {
-	border-radius: 100%;
-	height: 80px;
-	width: 80px;
-	margin: 20%;
-} */
-
 .pokemon img {
+	margin-top: 40px;
+	margin-bottom: 80px;
 	width: 80px;
 	height: 80px;
-	margin: 10%;
-	margin-left: 2rem;
+
 }
 
-
-.pokemon-name {
-	width: 80%;
-	margin-bottom: 32px;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-radius: 4px;
-	text-align: center;
-	padding: 2px;
-
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	font-size: 16px;
-}
-
-a { 
-	color: inherit; 
-}
-
-/**********************************/
-
-/* Cores */
-
-.steel {
-	background-color: #598FA2;
-	
-}
-
-.water {
-	background-color: #4D91D7;
-}
-
-.dragon {
-	background-color: #0A6DC8;
-}
-
-.electric {
-	background-color: #F3D33C;
-}
-
-.fairy {
-	background-color: #EB91E7;
-}
-
-.ghost {
-	background-color: #5568AA;
-}
-
-.fire {
-	background-color: #FF9D55;
-}
-
-.ice {
-	background-color: #71CFBE;
-}
-
-.bug {
-	background-color: #91C22E;
-}
-
-.fighting {
-	background-color: #CF4069;
-}
-
-.normal {
-	background-color: #9199A1;
-}
-
-.rock {
-	background-color: #C7B78A;
-}
-
-.grass {
-	background-color: #61BB59;
-}
-
-.psychic {
-	background-color: #FB7075;
-}
-
-.dark {
-	background-color: #5C5265;
-}
-
-.ground {
-	background-color: #DB7645;
-}
-
-.poison {
-	background-color: #AA6AC7;
-}
-
-.flying {
-	background-color: #8EA9DF;
-}
 
 /**********************************/
 
@@ -278,7 +254,7 @@ a {
 
 /**********************************/
 
-/* Rodapé */
+/*Rodapé*/
 
 #rodape {
 	margin-top: 32px;
@@ -299,22 +275,26 @@ a {
 /* Responsividade */
 
 @media (min-width: 900px) {
-	.row { 
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-		
+	.display-border {
+		width: 712px;
+		height: 464px;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 64px;
 	}
 
-	.icon {
-		height: 100px;
-		width: 100px;
-		
+	.display-screen {
+		width: 604px;
+		height: 376px;
+		/* margin: auto; */
+		top: 44px;
+		left: 54px;
 	}
 
-	.type-name {
-		width: 110px;
-		height: 20px;
+	.txt-label {
+		padding: 5px;
+		font-size: 16px;
+	}
+
 	
-		font-size: 20px;
-	}
-
- }
+}

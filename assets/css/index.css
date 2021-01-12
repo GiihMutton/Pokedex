@@ -50,31 +50,28 @@ body {
 	align-items: center;
 }
 
+/**********************************/
+
 /* Header */
 
-/* .bg{
+.bg{
 	background-color: #D71318;
-	position: absolute;
 	left: 0;
 	top: 0;
-	width: 50%;
+	width: 100%;
 	max-height: 132px;
 	min-height: 96px;
-} */
-
-.bg-logo {
-	object-fit: cover;
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 100%;
-	/* width: 50%; */
-	z-index: -1;
-	/* max-height: 132px;
-	min-height: 96px; */
 }
 
-
+.bg-logo {
+	top: 0;
+	right: 0;
+	/* width: 100%; */
+	width: 50%;
+	z-index: -1;
+	max-height: 132px;
+	min-height: 96px;
+}
 
 @font-face {
 	font-family: Pocket Monk;
@@ -95,6 +92,7 @@ body {
 	text-decoration: none;
 }
 
+/**********************************/
 
 /* Título */
 
@@ -108,6 +106,8 @@ body {
 	font-weight: 700;
 	font-size: 22px;
 }
+
+/**********************************/
 
  /* Busca */
 
@@ -137,6 +137,8 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+/**********************************/
 
 /* Tipos */
 
@@ -178,8 +180,16 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
+	
 }
 
+a { 
+	color: inherit; 
+}
+
+/**********************************/
+
+/* Cores */
 
 .steel {
 	background-color: #598FA2;
@@ -254,15 +264,36 @@ body {
 	background-color: #8EA9DF;
 }
 
+/**********************************/
+
+/*Voltar para o topo*/
+
+#backtotop {
+	margin-left: 80%;
+
+}
+
+/**********************************/
+
+/* Rodapé */
+
 #rodape {
+	margin-top: 32px;
 	background-color: #D71318;
-	position: fixed;
 	bottom: 0;
 	width: 100%;
 	min-height: 32px;
 	max-height: 80px;
+	color: #E3E3E3;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
 
 }
+
+/**********************************/
+
+/* Responsividade */
 
 
 @media (min-width: 900px) {
